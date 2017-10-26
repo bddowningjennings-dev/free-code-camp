@@ -4,18 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="static/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="static/bootstrap.min.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
+  <link rel="stylesheet" href="new_style.css">
   <script src="static/jquery.min.js"></script>
   <script src="script.js"></script>
-  <title>Document</title>
+  <title>Calculator</title>
 </head>
 <body>
+  <header>
+    <img id="calc_img" src="static/calculator.gif" alt="it'sa calculatorrrr">
+    Calculator
+  </header>
   <div class="container">
-    <div class="jumbotron">
-      <div class="display"></div>
-      <div class="buttons"></div>
+    <div class="display">
+      <div class="display_current">Please</div>
+      <div class="display_running">Calculate</div>
     </div>
+    <div class="buttons"></div>
   </div>
 </body>
 </html>
