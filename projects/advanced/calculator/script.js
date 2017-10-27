@@ -1,4 +1,5 @@
 
+
 $(document).ready(() => {
   const buttonsDOM = $('.buttons');
   
@@ -9,6 +10,7 @@ $(document).ready(() => {
     if (action !== 'number') {
       buttonsDOM.append("<div class='button' id='"+action+"'><button>"+face+"</button></div>");
       $('#'+action).click(() => {
+        let value_current = Number($('.display_current').html());
         console.log(action)
         clearDisplay();        
         if (action in operations) {
