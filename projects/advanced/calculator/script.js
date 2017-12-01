@@ -48,6 +48,14 @@ const buttons = [
   ['.', 'decimal'],
   ['=', 'equal'],
 ];
+let arr = [];
+for (let button of buttons) {
+  arr.push(button[0]);
+}
+console.log(arr);
+
+
+
 let operations = {
   'all_clear': () => {
     clearDisplay();

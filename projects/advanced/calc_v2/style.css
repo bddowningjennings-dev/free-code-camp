@@ -1,0 +1,42 @@
+* {
+  /* outline: 1px dashed red; */
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 680px) and (max-width: 1680px) {
+  .container {
+    width: 40%;
+  }
+  .display {
+    /* width: 90%; */
+    margin: 0 auto;
+    height: 90px;
+    background-color: darkturquoise;
+  }
+  .row {
+    margin-left: -25px;
+  }
+  .buttons {
+    height: 500px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  div.btn {
+    background-color: tomato;  
+    margin-left: 2.7%;
+    height: 60px;
+    margin-top: 25px;
+    padding-top: 3%;
+  }
+  .col-md-1 {
+    visibility: hidden;
+  }
+}
+@media (max-width: 680px) {
+  .display {
+    width: 90%;
+    margin: 0 auto;
+    height: 90px;
+    background-color: darkturquoise;
+  }
+}  

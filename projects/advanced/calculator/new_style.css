@@ -58,13 +58,13 @@ header {
   line-height: 50px;
   box-shadow: 1px 5px 5px #888888;
 }
-#zero {
+.zero {
   width: 104px;
 }
-#blank {
+.blank {
   visibility: hidden;
 }
-#equal {
+.equal {
   margin-top: -50px;
   padding-top: 1px;
   height: 103.5px;

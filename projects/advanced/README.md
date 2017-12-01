@@ -3,6 +3,7 @@
 ### [Calculator](calculator)
   * Javascript Calculator with basic addition, subtraction, multiplication and division and can keep chaining mathematical operations together until the equal button is clicked.
 
-## Repo Map -
+## Repo Map:
 ### [Home](https://github.com/bddowningjennings-dev/free-code-camp)
+### [Algorithms](https://github.com/bddowningjennings-dev/free-code-camp/tree/master/algorithms)
 ### [Projects](..)
